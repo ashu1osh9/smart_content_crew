@@ -6,9 +6,9 @@ search_tool = SerperDevTool()
 # Agent 1: Researcher
 researcher = Agent(
     role='Senior Research Analyst',
-    goal='Kisi bhi topic par internet se latest aur accurate information dhundo',
-    backstory="""Tum ek experienced researcher ho jo complex topics ko 
-    asaani se samajh lete ho aur best sources dhundhte ho.""",
+    goal='Find the latest and most accurate information on any given topic from the internet',
+    backstory="""You are an experienced researcher who understands complex topics with ease 
+    and always finds the best and most reliable sources.""",
     tools=[search_tool],
     verbose=True,
     allow_delegation=False
@@ -17,9 +17,9 @@ researcher = Agent(
 # Agent 2: Blog Writer
 writer = Agent(
     role='Content Writer',
-    goal='Research ke basis par engaging aur SEO-friendly blog post likho',
-    backstory="""Tum ek talented writer ho jo technical topics ko 
-    simple aur interesting tarike se explain karte ho.""",
+    goal='Write engaging and SEO-friendly blog posts based on the research provided',
+    backstory="""You are a talented writer who explains technical topics in a simple, 
+    clear, and interesting way that keeps readers hooked.""",
     verbose=True,
     allow_delegation=False
 )

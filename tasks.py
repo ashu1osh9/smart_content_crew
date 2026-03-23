@@ -5,9 +5,9 @@ def create_tasks(topic):
     # Task 1: Research
     research_task = Task(
         description=f"""
-        Is topic par detailed research karo: {topic}
+        Conduct detailed research on the following topic: {topic}
         
-        Ye cover karo:
+        Make sure to cover:
         - Latest developments
         - Key statistics
         - Important examples
@@ -20,12 +20,12 @@ def create_tasks(topic):
     # Task 2: Write Blog
     write_task = Task(
         description=f"""
-        Research ke basis par {topic} par ek engaging blog post likho.
+        Using the research provided, write an engaging blog post on: {topic}
         
-        Include karo:
-        - Catchy title
+        Make sure to include:
+        - A catchy title
         - Introduction
-        - Main sections with headings
+        - Main sections with clear headings
         - Conclusion
         - Minimum 800 words
         """,
